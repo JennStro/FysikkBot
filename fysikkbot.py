@@ -26,6 +26,4 @@ async def on_message(message):
     if (message.content == "hei" or message.content == "Hei" or message.content == "hei!" or message.content == "Hei!"):
       await message.channel.send("Heiii " + message.author.name + "!!")
 
-print(os.environ)
-print(os.getenv('TOKEN'))
 client.run(os.getenv('TOKEN'))
