@@ -8,6 +8,7 @@ authors = ["JennStro <jennys1994@gmail.com>"]
 python = "3.9.1"
 discord = "^1.0.1"
 emoji = "^1.2.0"
+boto3 = "^1.17.33"
 
 [tool.poetry.dev-dependencies]
 
