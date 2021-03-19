@@ -2,11 +2,11 @@ import discord
 import os
 import random
 import emoji
-import boto
-from boto.s3.connection import S3Connection
+#import boto
+#from boto.s3.connection import S3Connection
 
 
-token = S3Connection(os.environ['TOKEN'])
+#token = S3Connection(os.environ['TOKEN'])
 
 client = discord.Client()
 
@@ -32,4 +32,4 @@ async def on_message(message):
     if (message.content == "hei" or message.content == "Hei" or message.content == "hei!" or message.content == "Hei!"):
       await message.channel.send("Heiii " + message.author.name + "!!")
 
-client.run(token)
+client.run(os.environ.get('TOKEN'))
