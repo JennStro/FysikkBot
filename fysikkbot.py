@@ -31,7 +31,7 @@ async def on_message(message):
     if message.content.startswith('Ai') or message.content.startswith('ai'):
       await message.channel.send("Aiiaiiiaiii. Men det fikser seg @" + message.author.name + " " + emoji.emojize(':thumbs_up:'))
     
-    if (bool(re.search("He+i", message.content)))
+    if (bool(re.search("He+i", message.content))):
     #if (message.content == "hei" or message.content == "Hei" or message.content == "hei!" or message.content == "Hei!"):
       await message.channel.send("Heiii " + message.author.name + "!!")
 
