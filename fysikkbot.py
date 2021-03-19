@@ -2,6 +2,7 @@ import discord
 import os
 import random
 import emoji
+import sys
 #import boto
 #from boto.s3.connection import S3Connection
 
