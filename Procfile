@@ -1,1 +1,1 @@
-web: python fysikkbot.py
+web: poetry run python fysikkbot.py
