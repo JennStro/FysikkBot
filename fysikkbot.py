@@ -7,11 +7,6 @@ import re
 
 client = discord.Client()
 
-matchedHei = re.match("H[e]+i", test_string)
-is_match = bool(matched)
-
-print(is_match)
-
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
