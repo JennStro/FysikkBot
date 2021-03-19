@@ -3,11 +3,9 @@ import os
 import random
 import emoji
 import sys
-#import boto
-#from boto.s3.connection import S3Connection
 
-
-#token = S3Connection(os.environ['TOKEN'])
+#Avoid port error Heroku
+port = int(os.environ.get(“PORT”, 5000))
 
 client = discord.Client()
 
