@@ -2,7 +2,8 @@ import discord
 import os
 import random
 import emoji
-from boto3.s3.connection import S3Connection
+import boto
+from boto.s3.connection import S3Connection
 
 
 token = S3Connection(os.environ['TOKEN'])
