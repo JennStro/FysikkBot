@@ -24,7 +24,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if (message.content.startswith('hjelp') or message.content.startswith('Hjelp') or message.content.):
+    if (message.content.startswith('hjelp') or message.content.startswith('Hjelp')):
         random_motivation = random.choice(motivations)
         await message.channel.send('Hello, @' + message.author.name + "! " + random_motivation + " \N{SLIGHTLY SMILING FACE}")
 
