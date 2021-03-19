@@ -5,7 +5,7 @@ import emoji
 import sys
 
 #Avoid port error Heroku
-port = int(os.environ.get(“PORT”, 5000))
+port = int(os.environ.get("PORT", 5000))
 
 client = discord.Client()
 
